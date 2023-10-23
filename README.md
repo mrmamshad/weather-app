@@ -19,6 +19,7 @@ The Weather App is a web-based application that allows users to check the weathe
 1. Current Weather:
         Display the current weather conditions for a        specified location, including temperature, humidity, wind speed, and weather description.
 2. Responsive Design: The app is designed to work on various devices, including desktops, tablets, and mobile phones.
+3. 
 ## Technologies Used
 - HTML, CSS, and JavaScript for the front-end.
 - OpenWeatherMap API for weather data.
@@ -29,7 +30,8 @@ Install my-project
 - Open the index.html file in a web browser or serve it using a local development server.
 
 For example, you can use the Live Server extension if you're using Visual Studio Code.
-    
+## Links 
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://mamshad02.netlify.app/)
 ## Usage
 
 - Open the Weather App in your web browser.
