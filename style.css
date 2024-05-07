@@ -98,13 +98,15 @@ input.search-bar {
 
 /* Media Query for even smaller screens */
 @media (max-width: 480px) {
-    .container{
+    .container {
         top: 20px;
+        margin-left: auto;
+        margin-right: auto;
     }
+
     .card {
-        margin-left: 10px;
-        margin-right: 10px;
-        max-width: 90%;
+
+        max-width: 70%;
         padding: 10px;
     }
 
@@ -118,16 +120,16 @@ input.search-bar {
     }
 
     .search-bar {
-        padding: 8px;
+        width: 100%;
+        /* padding: 2px; */
     }
 
     button {
-        height: 40px;
-        width: 40px;
+        display: none;
     }
 
     .h1 {
-       
+
         font-size: 1.5rem;
     }
 
@@ -144,5 +146,9 @@ input.search-bar {
         position: relative;
         left: 10px;
 
+    }
+    #city{
+        margin-top: 15px;
+        font-size:large;
     }
 }
