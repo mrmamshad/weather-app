@@ -99,7 +99,7 @@ input.search-bar {
 /* Media Query for even smaller screens */
 @media (max-width: 480px) {
     .container {
-        top: 20px;
+       
         margin-left: auto;
         margin-right: auto;
     }
