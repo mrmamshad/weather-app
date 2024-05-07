@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 120%;
+    background: #222;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("images.jpeg");
+    font-family: "Open Sans", sans-serif;
+}
+
+.card {
+    background: #000000d0;
+    color: white;
+    padding: 2cm;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1cm;
+}
+
+.discription {
+    position: relative;
+    top: 43px;
+}
+
+.weather {
+    position: relative;
+    /* left: 0px; */
+    right: 40px;
+}
+
+.search {
+    position: relative;
+    /* left: 0px; */
+    right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    border: none;
+    margin: 0.2cm;
+    border-radius: 40%;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: whitesmoke;
+}
+
+button:hover {
+    background: #7c7c7c6b;
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+}
+
+#temp {
+    position: relative;
+    top: 20px;
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+
+.h1 {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+}
+
+@media (max-width: 768px) {
+    .card {
+        max-width: 90%;
+    }
+}
+
+/* Media Query for even smaller screens */
+@media (max-width: 480px) {
+    .container{
+        top: 20px;
+    }
+    .card {
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: 90%;
+        padding: 10px;
+    }
+
+    .search {
+        position: relative;
+        left: 0px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .search-bar {
+        padding: 8px;
+    }
+
+    button {
+        height: 40px;
+        width: 40px;
+    }
+
+    .h1 {
+       
+        font-size: 1.5rem;
+    }
+
+    /* Adjust font sizes for smaller screens */
+    .card h2 {
+        font-size: 1rem;
+    }
+
+    .card p {
+        font-size: 0.9rem;
+    }
+
+    .weather {
+        position: relative;
+        left: 10px;
+
+    }
+}
